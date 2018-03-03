@@ -1,9 +1,79 @@
+@import "colours";
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans');
+
 body {
-  background: rgba(70,50,10,255);
+  font-family: 'Alegreya Sans', sans-serif;
+  margin:0;
+}
+
+h1.title {
+  margin-bottom: 0.5em;
+  margin-left: 1em;
+  margin-top: 0;
+  font-size: 1.5em;
+  text-align: left;
+  color: white;
+  float: left;
+}
+
+h2.subtitle {
+  margin-bottom: 0.5em;
+  margin-left: 0.25em;
+  margin-top: 0.5em;
+  font-size: 1em;
+  text-align: right;
+  color: white;
+  float: left;
+}
+
+main {
+  background: lighten($color-primary-1,25);
+  padding: 1em 2em;
+}
+
+.content{
+  background: lighten($color-primary-0,0);
+}
+
+@media screen and (min-width: 1080px) {
+  /** If the screen is large. Give it a margin */
+  .content {
+    margin-left: auto;
+    margin-right: auto;
+    width: 66vw;
+    font-size: 1.5em;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  /** If the screen is smol. Make the text larger */
+  .content {
+    font-size: 2.5em;
+    margin-left: 0.25em;
+    margin-right: 0.25em;
+  }
 }
 
 
-main {
-  color: bisque;
-  border:blue;
+.header{
+  width: 100%;
+}
+
+.underline{
+  background: $color-primary-4;
+  width: 33vw;
+  height: 2px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0.25em;
+}
+
+section {
+  h2 {
+    font-size: 1em;
+    margin-bottom: 0;
+  }
+  p {
+    margin-top: 0;
+  }
 }

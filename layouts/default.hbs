@@ -1,9 +1,15 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
 <link rel="stylesheet" href="style/main.css">
+<title>TeamUp - {{title}}</title>
 
-<main>
-    <p>Main</p>
-    Dogoo
-</main>
+<div class="content">
+    {{> headline image="assets/images/header.jpg"}}
+    <main>
+        {{>body}}
+    </main>
+</div>
+
 
 {{#unless production}}
     {{>dev}}

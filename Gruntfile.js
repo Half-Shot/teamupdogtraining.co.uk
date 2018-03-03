@@ -5,7 +5,6 @@ module.exports = function(grunt) {
         pkg: grunt.file.readJSON('package.json'),
         assemble: {
             options: {
-                assets: 'assets',
                 partials: ['layouts/partials/**/*.hbs'],
                 layout: ['layouts/default.hbs'],
                 data: ['data/*.{json,yml}'],
@@ -13,7 +12,7 @@ module.exports = function(grunt) {
                 production: (!grunt.cli.tasks.includes('dev'))
             },
             site: {
-                src: ['layouts/pages/*.hbs'],
+                src: ['pages/*.yaml'],
                 dest: "site/."
             }
         },
@@ -38,12 +37,23 @@ module.exports = function(grunt) {
         },
         watch: {
             scripts: {
-                files: ['layouts/**', 'data/**', 'assets/**', 'sass/**'],
+                files: ['layouts/**', 'data/**', 'assets/**', 'sass/**', 'pages/**'],
                 tasks: ['default:dev'],
                 options: {
                     spawn: false,
                     livereload: true
                 }
+            }
+        },
+        copy: {
+            main: {
+                files: [
+                    {
+                        expand: true,
+                        src: ['assets/**/*'],
+                        dest: 'site/'
+                    }
+                ]
             }
         },
         connect: {
@@ -69,6 +79,7 @@ module.exports = function(grunt) {
     grunt.registerTask('default', [
         'clean',
         'mkdir',
+        'copy',
         'sass',
         'assemble']
     );

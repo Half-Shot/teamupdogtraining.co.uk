@@ -1,0 +1,30 @@
+---
+title: Index
+---
+
+{{#> blurb}}
+  This is the blurb!
+{{/blurb}}
+
+{{#>section heading="About Us"}}
+This is where the about us bit goes
+{{/section}}
+
+{{#>section heading="Tuesday Classes"}}
+	<p>6:30 pm Puppies</p>
+	<p>7:15 pm Intermediates</p>
+	<p>8:00 pm Advanced</p>
+{{/section}}
+
+{{#>section heading="The Team"}}
+This is where the information about the team goes.
+{{/section}}
+
+{{#>section heading="How to get to us"}}
+Location
+{{/section}}
+
+{{#>section heading="Contact"}}
+<p> Call Jill on : <a href="tel:07941863458"> 07941 863458 </a></p>
+<p> or Sharon on : <a href="tel:07492334500"> 07492 334500 </a></p>
+{{/section}}
