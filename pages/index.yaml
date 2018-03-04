@@ -27,6 +27,10 @@ We use positive training methods, and believe that the best results for all are 
 <p>
   <strong>Sharon</strong> is a member of the Institute of Modern Dog Trainers and is passionate about building human/dog communication through positive reward based training techniques.
 </p>
+<p>
+  <strong>Coral</strong> "four collie's later, I woke up to how much fun training can be - Every day is different, some things have been easier to train other more challenging,
+  even with one breed my two collies are very different and gives me a different perspective. Once you develop that bond every step forward is so rewarding."
+</p>
 {{/section}}
 
 {{#>section heading="How to get to us"}}
@@ -43,4 +47,5 @@ We use positive training methods, and believe that the best results for all are 
 <!--<button onclick="window.open('https://docs.google.com/forms/d/e/1FAIpQLSeqjEEyIjy3oMEtmk5_XMPizZJCAPje8HSBD5u4hQZETCArTA/viewform?usp=sf_link','_blank');" >Fill in our form</button>-->
 <p> Call Jill on <button onclick="window.open('tel:+447941863458','_blank');" >07941 863458</button></p>
 <p> Call Sharon on <button onclick="window.open('tel:+447492334500','_blank');" >07492 334500</button></p>
+<p> Call Coral on <button onclick="window.open('tel:+447492334500','_blank');" >07989 886834</button></p>
 {{/section}}
