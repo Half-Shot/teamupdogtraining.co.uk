@@ -1,12 +1,21 @@
 <!DOCTYPE html>
 <meta charset="UTF-8">
 <link rel="stylesheet" href="style/main.css">
-<title>TeamUp - {{title}}</title>
-
+<head>
+    <title>TeamUp - {{title}}</title>
+    <meta property="og:url"           content="https://teamupdogtraining.co.uk" />
+    <meta property="og:type"          content="website" />
+    <meta property="og:title"         content="Team Up Dog Training" />
+    <meta property="og:description"   content="Helping you and your dog become the team that you deserve to be" />
+    <meta property="og:image"         content="https://teamupdogtraining.co.uk/assets/images/logo.png" />
+    <link rel="icon" href="assets/images/favicon.png">
+</head>
 <div class="content">
     {{> headline image="assets/images/header.jpg"}}
     <main>
-        {{>body}}
+        <article>
+            {{>body}}
+        </article>
     </main>
 </div>
 

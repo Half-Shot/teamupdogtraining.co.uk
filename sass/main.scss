@@ -21,7 +21,6 @@ h2.subtitle {
   margin-left: 0.25em;
   margin-top: 0.5em;
   font-size: 1em;
-  text-align: right;
   color: white;
   float: left;
 }
@@ -41,7 +40,6 @@ main {
     margin-left: auto;
     margin-right: auto;
     width: 66vw;
-    font-size: 1.5em;
   }
 }
 
@@ -49,8 +47,32 @@ main {
   /** If the screen is smol. Make the text larger */
   .content {
     font-size: 2.5em;
+  }
+
+  h1.title {
+    margin: 0;
     margin-left: 0.25em;
-    margin-right: 0.25em;
+    font-size: 1.5em;
+    text-align: left;
+    color: white;
+    float: left;
+  }
+
+  h2.subtitle {
+    margin-bottom: 0.5em;
+    margin-left: 0.25em;
+    margin-top: 0.5em;
+    font-size: 0.75em;
+    color: white;
+    float: left;
+  }
+
+  section{
+    font-size: 0.75em;
+  }
+
+  button {
+    font-size: 1em;
   }
 }
 
@@ -70,10 +92,38 @@ main {
 
 section {
   h2 {
-    font-size: 1em;
+    font-size: 1.5em;
     margin-bottom: 0;
+    color:$rgba-primary-4;
+  }
+  h3 {
+    font-size: 1.25em;
+    margin-bottom: 0;
+    color:$rgba-primary-4;
+    margin-left: 0.5em;
   }
   p {
+    font-size: 1.25em;
     margin-top: 0;
+    color: $rgba-primary-3;
   }
+}
+
+button {
+  background: transparent;
+  border: 1px solid purple;
+  color: $rgba-primary-3;
+  margin-left: 5px;
+  padding: 0.25em;
+}
+
+section > p {
+  margin-left: 0.5em;
+}
+
+.map {
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  height: 450px;
 }

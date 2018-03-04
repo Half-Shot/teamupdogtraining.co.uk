@@ -1,19 +1,19 @@
 ---
-title: Index
+title: Home
 ---
-
-{{#> blurb}}
-  This is the blurb!
-{{/blurb}}
 
 {{#>section heading="About Us"}}
 This is where the about us bit goes
 {{/section}}
 
 {{#>section heading="Tuesday Classes"}}
-	<p>6:30 pm Puppies</p>
-	<p>7:15 pm Intermediates</p>
-	<p>8:00 pm Advanced</p>
+    <p>Information about what goes on in a tuesday class</p>
+	<h3>6:30 pm Puppies</h3>
+	<p> Information about the Puppies class </p>
+	<h3>7:15 pm Intermediates</h3>
+	<p> Information about the Intermediates class </p>
+	<h3>8:00 pm Advanced</h3>
+	<p> Information about the Advanced class </p>
 {{/section}}
 
 {{#>section heading="The Team"}}
@@ -21,10 +21,17 @@ This is where the information about the team goes.
 {{/section}}
 
 {{#>section heading="How to get to us"}}
-Location
+ <address>
+  Broomfield FC Clubhouse<br>
+  Mill Ln<br>
+  Broomfield<br>
+  Chelmsford CM1 7BQ
+ </address>
+ <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2469.2999779342344!2d0.4766386157794402!3d51.76412297967806!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8e955aa1ef857%3A0x4775afd2d3d492c5!2sBroomfield+Football+Club!5e0!3m2!1sen!2suk!4v1520165174513" frameborder="0" style="border:0" allowfullscreen></iframe>
 {{/section}}
 
 {{#>section heading="Contact"}}
-<p> Call Jill on : <a href="tel:07941863458"> 07941 863458 </a></p>
-<p> or Sharon on : <a href="tel:07492334500"> 07492 334500 </a></p>
+<!--<button onclick="window.open('https://docs.google.com/forms/d/e/1FAIpQLSeqjEEyIjy3oMEtmk5_XMPizZJCAPje8HSBD5u4hQZETCArTA/viewform?usp=sf_link','_blank');" >Fill in our form</button>-->
+<p> Call Jill on <button onclick="window.open('tel:+447941863458','_blank');" >07941 863458</button></p>
+<p> Call Sharon on <button onclick="window.open('tel:+447492334500','_blank');" >07492 334500</button></p>
 {{/section}}
