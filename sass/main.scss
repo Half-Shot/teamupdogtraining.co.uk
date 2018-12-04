@@ -80,6 +80,18 @@ main {
   button {
     font-size: 1em;
   }
+
+  section {
+    h2 {
+      font-size: 1em;
+    }
+    h3 {
+      font-size: 0.8em;
+    }
+    p {
+      font-size: 0.8em;
+    }
+  }
 }
 
 
@@ -98,18 +110,18 @@ main {
 
 section {
   h2 {
-    font-size: 1em;
+    font-size: 1.5em;
     margin-bottom: 0;
     color:$rgba-primary-4;
   }
   h3 {
-    font-size: 0.8em;
+    font-size: 1.25em;
     margin-bottom: 0;
     color:$rgba-primary-4;
     margin-left: 0.5em;
   }
   p {
-    font-size: 0.8em;
+    font-size: 1.25em;
     margin-top: 0;
     color: $rgba-primary-3;
   }
