@@ -2,20 +2,34 @@
 title: Home
 ---
 
-{{#>section heading="About Us"}}
-Team Up Dog Training aims to help owners and handlers learn to work together with their dogs, building a bond and understanding of each other that results in a happy and obedient dog.
-We use positive training methods, and believe that the best results for all are achieved when the dog willingly wants to please the handler.
+{{#>section heading="Contact"}}
+<p><button class="facebook" onclick="window.open('https://www.facebook.com/TeamUpDT/','_blank');" >Facebook Page</button></p>
+<p><button onclick="window.open('https://docs.google.com/forms/d/e/1FAIpQLSeqjEEyIjy3oMEtmk5_XMPizZJCAPje8HSBD5u4hQZETCArTA/viewform?usp=sf_link','_blank');" >Fill in our form</button></p>
+<p> Call Jill on   <button onclick="window.open('tel:+447941863458','_blank');" >07941 863458</button></p>
+<p> Call Sharon on <button onclick="window.open('tel:+447492334500','_blank');" >07492 334500</button></p>
+<p> Call Coral on  <button onclick="window.open('tel:+447989886834','_blank');" >07989 886834</button></p>
 {{/section}}
 
+{{#>section heading="About Us"}}
+    At Team Up Dog Training we believe that a trained dog is a happy dog.  We aim to develop the bond and understanding between dog and owner through positive reward based learning.  We are very proud to be <a href="https://www.thekennelclub.org.uk/training/good-citizen-dog-training-scheme/" target="_blank">Approved by the Kennel Club to offer the Good Citizen Dog Scheme</a> giving you and your dog the opportunity to work for and achieve these prestigious awards. 
+{{/section}}
 {{#>section heading="Tuesday Classes"}}
-    <p>Whether you've just got your first puppy, have been training for years or anywhere in between we have the class for you.
-    In a relaxed and friendly atmosphere we will help you build great communication with your dog whilst having fun at the same time.</p>
-	<h3>6:30 pm Puppies</h3>
-	<p> Getting your basic training started in areas such as Reliable Recall, Lead Walking, Sit-Down-Stand, Good Manners plus more </p>
-	<h3>7:15 pm Intermediates</h3>
-	<p> For dogs over six months of age who are progressing from the puppy class, are new to training or have recently started their training. </p>
-	<h3>8:00 pm Advanced</h3>
-	<p> For those who have achieved a higher level of understanding and co-operation and want to develop this further whilst still having fun! </p>
+    <p>
+        Whether you've just got your first puppy, have been training for years or anywhere in between we have the class for you.
+        In a relaxed and friendly atmosphere we will help you build great communication with your dog whilst having fun at the same time.
+    </p>
+    <h3>6:30 pm Puppies/Beginner</h3>
+        <p>
+            Getting your basic training started in areas such as Reliable Recall, Lead Walking, Sit-Down-Stand, Good Manners plus more
+        </p>
+    <h3>7:15 pm Intermediates</h3>
+        <p>
+            For dogs over six months of age who are progressing from the puppy class, are new to training or have recently started their training.
+        </p>
+    <h3>8:00 pm Advanced</h3>
+        <p>
+            For those who have achieved a higher level of understanding and co-operation and want to develop this further whilst still having fun!
+        </p>
 {{/section}}
 
 {{#>section heading="The Team"}}
@@ -41,12 +55,4 @@ We use positive training methods, and believe that the best results for all are 
   Chelmsford CM1 7BQ
  </address>
  <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2469.2999779342344!2d0.4766386157794402!3d51.76412297967806!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8e955aa1ef857%3A0x4775afd2d3d492c5!2sBroomfield+Football+Club!5e0!3m2!1sen!2suk!4v1520165174513" frameborder="0" style="border:0" allowfullscreen></iframe>
-{{/section}}
-
-{{#>section heading="Contact"}}
-<p><button class="facebook" onclick="window.open('https://www.facebook.com/TeamUpDT/','_blank');" >Facebook Page</button></p>
-<p><button onclick="window.open('https://docs.google.com/forms/d/e/1FAIpQLSeqjEEyIjy3oMEtmk5_XMPizZJCAPje8HSBD5u4hQZETCArTA/viewform?usp=sf_link','_blank');" >Fill in our form</button></p>
-<p> Call Jill on   <button onclick="window.open('tel:+447941863458','_blank');" >07941 863458</button></p>
-<p> Call Sharon on <button onclick="window.open('tel:+447492334500','_blank');" >07492 334500</button></p>
-<p> Call Coral on  <button onclick="window.open('tel:+447989886834','_blank');" >07989 886834</button></p>
 {{/section}}
