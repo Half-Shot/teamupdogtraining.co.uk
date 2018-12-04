@@ -16,13 +16,19 @@ h1.title {
   float: left;
 }
 
+.logo {
+    max-height: 100px;
+    color: white;
+    float: none;
+    display: block;
+    margin: 0 auto;
+}
+
 h2.subtitle {
   margin-bottom: 0.5em;
-  margin-left: 0.25em;
-  margin-top: 0.5em;
+  text-align: center;
   font-size: 1em;
   color: white;
-  float: left;
 }
 
 main {
