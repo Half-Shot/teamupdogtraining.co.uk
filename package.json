@@ -17,18 +17,19 @@
   },
   "homepage": "https://github.com/Half-Shot/teamupdogtraining.co.uk#readme",
   "dependencies": {
-    "grunt": "^1.0.2",
+    "assemble": "^0.24.3",
+    "grunt": "^1.0.4",
+    "grunt-assemble": "^0.6.3",
     "grunt-contrib-clean": "^1.1.0",
     "grunt-contrib-copy": "^1.0.0",
+    "grunt-mkdir": "^1.0.0",
     "grunt-sass": "^2.1.0",
-    "assemble": "^0.24.3",
-    "grunt-assemble": "^0.6.3",
-    "grunt-mkdir": "^1.0.0"
+    "node-sass": "^4.13.0"
   },
   "devDependencies": {
     "connect-livereload": "^0.6.0",
     "grunt-contrib-connect": "^1.0.2",
-    "grunt-contrib-watch": "^1.0.0",
+    "grunt-contrib-watch": "^1.1.0",
     "grunt-serve": "^0.1.6"
   }
 }
