@@ -27,6 +27,7 @@ module.exports = function(grunt) {
         },
         sass: {
             options: {
+                implementation: require('node-sass'),
                 sourceMap: (!grunt.cli.tasks.includes('dev'))
             },
             dist: {

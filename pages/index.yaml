@@ -1,9 +1,14 @@
 ---
 title: Home
 ---
+{{#>section heading="Covid-19"}}
+In compliance with governnment guidelines, classes are currently suspended but will resume as soon as possible.  
+However, we are now able to offer one-to-one training sessions for anyone who is interested and can cover the Chelmsford,
+Braintree and Witham areas.  Please get in touch for more information if you're interested in this option.
+{{/section}}
 
 {{#>section heading="Contact"}}
-<p><button class="facebook" onclick="window.open('https://www.facebook.com/TeamUpDT/','_blank');" >Facebook Page</button></p>
+<a class="facebook" href="https://www.facebook.com/TeamUpDT"></a>
 <p><button onclick="window.open('https://docs.google.com/forms/d/e/1FAIpQLSeqjEEyIjy3oMEtmk5_XMPizZJCAPje8HSBD5u4hQZETCArTA/viewform?usp=sf_link','_blank');" >Fill in our form</button></p>
 <p> Call Jill on   <button onclick="window.open('tel:+447941863458','_blank');" >07941 863458</button></p>
 <p> Call Sharon on <button onclick="window.open('tel:+447492334500','_blank');" >07492 334500</button></p>

@@ -146,6 +146,14 @@ section > p {
   height: 450px;
 }
 
-button.facebook {
-  color: #4267b2;
+.facebook {
+  height: 32px;
+  background: white;
+  display: block;
+  background-image: url("/assets/find-us-on-fb.png");
+  background-size: cover;
+  border-radius: 5px;
+  border-color: black;
+  border: 1px solid gray;
+  width: 170px;
 }
