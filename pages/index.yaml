@@ -1,12 +1,6 @@
 ---
 title: Home
 ---
-{{#>section heading="Covid-19"}}
-In compliance with government guidelines, classes are currently suspended but will resume as soon as possible.  
-However, we are now able to offer one-to-one training sessions for anyone who is interested and can cover the Chelmsford,
-Braintree and Witham areas.  Please get in touch for more information if you're interested in this option.
-{{/section}}
-
 {{#>section heading="Contact"}}
 <a class="facebook" href="https://www.facebook.com/TeamUpDT"></a>
 <p><button onclick="window.open('https://docs.google.com/forms/d/e/1FAIpQLSeqjEEyIjy3oMEtmk5_XMPizZJCAPje8HSBD5u4hQZETCArTA/viewform?usp=sf_link','_blank');" >Fill in our form</button></p>
