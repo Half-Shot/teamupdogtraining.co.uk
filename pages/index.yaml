@@ -10,7 +10,7 @@ title: Home
 {{/section}}
 
 {{#>section heading="About Us"}}
-    At Team Up Dog Training we believe that a trained dog is a happy dog.  We aim to develop the bond and understanding between dog and owner through positive reward based learning.  We are very proud to be <a href="https://www.thekennelclub.org.uk/training/good-citizen-dog-training-scheme/" target="_blank">Approved by the Kennel Club to offer the Good Citizen Dog Scheme</a> giving you and your dog the opportunity to work for and achieve these prestigious awards. 
+    At Team Up Dog Training we believe that a trained dog is a happy dog.  We aim to develop the bond and understanding between dog and owner through positive reward based learning.  We are very proud to be <a href="https://www.thekennelclub.org.uk/dog-training/good-citizen-dog-scheme/taking-part-in-the-good-citizen-dog-scheme/" target="_blank">Approved by the Kennel Club to offer the Good Citizen Dog Scheme</a> giving you and your dog the opportunity to work for and achieve these prestigious awards. 
 {{/section}}
 {{#>section heading="Classes held on Tuesday evenings"}}
     <p>
